@@ -81,6 +81,7 @@ body{
 }
 #disminuir{
     border-bottom:3px solid red;
+    
 
 }
 #aumentar{
@@ -95,6 +96,8 @@ body{
     font-family: "PT Sans", serif;
     font-weight: 400;
     font-style: normal;
+    border: 2px solid black;
+    border-bottom:3px solid white;
 }
 #disminuir:hover{
     background-color: orange;

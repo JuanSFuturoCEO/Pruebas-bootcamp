@@ -1,0 +1,122 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+body{
+    background-color: #454545;
+    width: 100%;
+    /* antes del error le estaba colocando 200px osea que estaba mas alto que ancho y por eso no se centraba */
+    height: 700px;
+    background: linear-gradient(grey,orange);
+    
+}
+
+.header{
+    border-bottom:3px solid orange;
+    border-radius: 20px;
+    text-align: center;
+}
+.header-h1{
+    color: wheat;
+    font-weight: 700px;
+    text-shadow: 
+    2px 2px 0px black,  
+    -2px -2px 0px black,  
+    2px -2px 0px black,  
+    -2px 2px 0px black; 
+    font-size: 30px;
+    
+}
+.counter{
+    height: 500px ;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+}
+
+.counterh2{
+    color: wheat;
+    text-shadow: 
+    2px 2px 0px black,  
+    -2px -2px 0px black,  
+    2px -2px 0px black,  
+    -2px 2px 0px black; 
+    font-size:50px;
+}
+.counter-div{
+    text-align: center;
+    font-size: 70px;
+    font-family: "PT Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+#number{
+    font-family: "PT Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.counter-p{
+    text-align: center;
+    margin: 0% 10px;
+}
+.counter-div-button{
+    
+    background-color: rgb(223, 161, 46) ;
+    font-size: 30px;
+    border-radius: 5px;
+    font-family: "PT sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#disminuir{
+    border-bottom:3px solid red;
+
+}
+#aumentar{
+    border-bottom:3px solid #39ff14;
+    
+}
+.counter-div-button-restablecer{
+
+    background-color: transparent;
+    font-size: 30px;
+    border-radius: 5px;
+    font-family: "PT Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#disminuir:hover{
+    background-color: orange;
+    color: red;
+    transition: .5s;
+    cursor: pointer;
+    
+    
+}
+#aumentar:hover{
+    background-color: orange;
+    color: green;
+    transition: .5s;
+    cursor: pointer;
+}
+#restablecer:hover{
+    background-color: white;
+    color: black;
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+/* 
+tengo pendiente tratar de centrar todo ya que no se sentra  */
+

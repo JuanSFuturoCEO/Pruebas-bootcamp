@@ -8,7 +8,7 @@ disminuirNumero  = () =>{
 }
 restablecerNumero =()=>{
     document.getElementById("number").innerHTML= 0;
-    // aqui no es nesesario colocar el return xq ya se coloca el 0 por si solo 
+    // aqui no es nesesario colocar el return xq ya se coloca el 0 por si solo xddd
 
 }   
 aumentarNumero =() =>{ 
